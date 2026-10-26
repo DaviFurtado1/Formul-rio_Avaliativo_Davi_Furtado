@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="_css/Formulário.css">
+</head>
+
+<body>
+    <h1>Exemplos de Formulário em HTML</h1>
+    <hr class="hr">
+    <form class="form">Exemplo 1</form>
+    <br>
+    <input class="input" type="text" id="nome" name="nome" required placeholder="Nome">
+    <input class="input" type="email" id="email" name="email" required placeholder="Email">
+    <input class="input" type="tel" id="Telefone" name="Celular" required placeholder="Celular">
+    <input class="input" type="password" id="senha" name="senha" required placeholder="Senha">
+    <input class="botao" type="submit" value="Cadastrar">
+    <hr>
+    <h1>Exemplo 2</h1>
+    <textarea class="area" name="area" id="area"></textarea>
+    <hr>
+    <h1>Exemplo 3</h1>
+    <div>
+        <fieldset class="fiel1">
+            <legend>Formulário</legend>
+            <label for="name">Nome:</label>
+            <input type="text">
+            <p></p>
+            <label for="name">Sexo:</label>
+            <input type="radio" name="masculino">Masculino
+            <input type="radio" name="masculino">Feminino
+            <p></p>
+            <label for="pais">País</label>
+            <select name="pais" id="pais">
+                <option value="pais">Selecione uma opção</option>
+                <option value="pais">EUA</option>
+                <option value="pais">China</option>
+                <option value="pais">Brasil</option>
+                <option value="pais">Suécia</option>
+            </select>
+            <p></p>
+            <label for="">Mensagem</label>
+            <br>
+            <textarea class="area1" name="area" id="area"></textarea>
+            <p></p>
+            <input type="checkbox">Assinar Newsletter?
+            <p></p>
+            <input type="submit" class="enviar">
+        </fieldset>
+    </div>
+    <hr>
+    <h1>Exemplo 4</h1>
+    <form action="https:\\google.com" method="get">
+        <input class="s" type="search" value="">
+        <input class="pesquisa" type="submit" value="Clique para pesquisar">
+    </form>
+
+    <hr>
+    <h1>Exemplo 5</h1>
+    <fieldset class="fieldset">
+        <legend>
+            <b>
+                Selecione a cor que mais agrada?
+            </b>
+        </legend>
+        <input type="checkbox"><b>azul</b>
+        <input type="checkbox"><b>vermelho</b>
+        <input type="checkbox"><b>verde</b>
+        <input type="checkbox"><b>amarela</b>
+    </fieldset>
+    <p></p>
+</body>
+
+</html>
